@@ -19,6 +19,9 @@ function http(options){
                 }
         }).then(res =>{
                 switch(res.status){
+                    case 199:
+                                return res;
+                                break;
                         case 200:
                                 return res;
                                 break;
