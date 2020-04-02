@@ -1,6 +1,6 @@
 var path = require('path');
 exports.dbConfig = {
-	host: 'localhost', //链接的那台电脑ip
+	host: '123.57.223.218', //链接的那台电脑ip
 	database: 'forum', //数据库的名字
 	user: 'root', //什么身份进去的
 	password: '123' //密码
