@@ -19,7 +19,7 @@
   
   + d 项目启动：
   
-      + 1 admin使用`npm start`启动服务，默认3000端口。
+      +  admin使用`npm start`启动服务，默认3000端口。
       
-      + 2 my_forum使用`npm run dev`启动
+      +  my_forum使用`npm run dev`启动
   
