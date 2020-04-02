@@ -136,7 +136,7 @@
                                         });
                                         return;
                                 }
-                                if(this.content.length>250){
+                                if(this.content.length<250){
                                         this.$message({
                                                 message: '内容不够哟!',
                                                 type: 'warning'
