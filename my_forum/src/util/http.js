@@ -19,6 +19,7 @@ function http(options){
                 }
         }).then(res =>{
                 switch(res.status){
+					//你好
                         case 199:
                                 return res;
                                 break;
