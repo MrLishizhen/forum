@@ -136,7 +136,7 @@
                                         });
                                         return;
                                 }
-                                if(this.content.length<250){
+                                if(this.content.length>250){
                                         this.$message({
                                                 message: '内容不够哟!',
                                                 type: 'warning'
@@ -190,7 +190,7 @@
                                 // 获取富文本组件实例
 	                        this.imgs.push(res.data);
                                 let quill = this.$refs.myQuillEditor.quill
-	                        this.url = 'http://localhost:3000/tmp/'+res.data;
+	                        this.url = 'http://123.57.223.218:3003/images/posting/'+res.data;
                                 // 如果上传成功
                                 if (res.status == '200') {
                                         // 获取光标所在位置

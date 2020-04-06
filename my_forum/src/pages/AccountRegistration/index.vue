@@ -182,7 +182,7 @@
 	                ,
 	                //用户注册
                         _ar(){
-				if(this.dataList.nickName!==''&&this.dataList.password!==''&&this.dataList.email&&this.dataList.phone!==''){
+				if(this.dataList.nickName!==''&&this.dataList.password!==''&&this.dataList.email&&this.dataList.phone!==''&&this.error==""){
 				        let data={
 				                nickName:this.dataList.nickName,
 					        password:this.dataList.password,

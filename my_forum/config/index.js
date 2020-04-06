@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
             '/api': {  //代理地址
-                    target: 'http://127.0.0.1:3000',  //需要代理的地址
+                    target: 'http://123.57.223.218:3003',  //需要代理的地址
                     changeOrigin: true,  //是否跨域
                     secure: false,
                     pathRewrite: {
